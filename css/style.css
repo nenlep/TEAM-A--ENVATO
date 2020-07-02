@@ -574,7 +574,7 @@ footer .footer-navigation {
 /** ABOUT PAGE STARTS HERE **/
 
 #about-hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/about-video.jpg);;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/about-video.jpg);;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
