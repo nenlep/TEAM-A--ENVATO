@@ -1,4 +1,4 @@
 # TEAM-A--ENVATO
-ClONE THE REPO
-Name your html according to the page you implemented example route.html
-then keep the html in the Root folder while css and images should be in their respective folder
+1. Clone the repo
+2.  Name your html according to the page you implemented example route.html
+3. All css should be in the css folder and image in the img folder 
