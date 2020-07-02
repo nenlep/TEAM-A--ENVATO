@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+h1, h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+p {
+    font-size: 16px;
+    color: #464646;
+}
+
+a {
+    font-size: 16px;
+    color: #EBC154;
+}
+
+a:hover {
+    font-size: 16px;
+    color: #EBC154;
+}
+
+.section-padding {
+    padding-top: 100px;
+}
+
+
+
+/** NAVIGATION STYLING STARTS HERE **/
+
+nav {
+    height: 60px;
+    z-index: 100;
+}
+
+.active .nav-link {
+    color: #EBC154 !important;
+}
+
+.nav-link {
+    color: #ccc !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.bg-dark {
+    background-color: rgba(0, 0, 0, .8) !important;
+}
+
+
+/*Desktop screen styling */
+
+@media (min-width: 600px){
+
+    body {
+        background-color: #FFF;
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+    }
+
+    .banner {
+     background-image: url('../images/background.png');
+     background-size: cover;
+     background-position: top;
+     position: relative;
+     height: 100vh;
+     margin-bottom: 100px;
+    }
+
+    .header {
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 88px;
+        text-transform: uppercase;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 0);
+
+        color: #FFFFFF;
+
+    }
+    .p-style {
+        padding-left: 1em;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 40px;
+        color: #6C6C6C;
+
+
+    }
+
+    .text-size{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+    }   
+
+    .icon-style{
+        font-size: 16px;
+        color: #EBC154;
+    }
+
+    .button {
+        width: 220px;
+        height: 58px;
+        background: #EBC154;
+        box-shadow: 0px 0px 15px #C4C4C4;
+        color: #FFF;
+        font-size: 24px;
+    }
+
+    #heading {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        padding: 30px 0 15px 12px;
+        line-height: 14px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+
+    }
+
+    #hr {
+      height: 10px;
+      background: #EBC154;;
+      width: 135px;
+      margin:  0 0 5px 12px;
+
+    }
+
+}
+
+/* Space in-between */
+@media screen and (max-width: 700px) and (min-width: 600px) {
+    .banner {
+     background-image: url('../images/background.png');
+     background-size: cover;
+     background-position: top;
+     position: relative;
+     height: 80vh;
+     margin-bottom: 80px;
+}
+    .header {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 70px;
+        text-transform: uppercase;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 0);
+
+        color: #FFFFFF;
+
+    }
+
+    .p-style {
+        padding-left: 1em;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 40px;
+        color: #6C6C6C;
+
+
+    }
+
+    .text-size{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 90px;
+    }   
+
+    .icon-style{
+        font-size: 16px;
+        color: #EBC154;
+    }
+
+    .button {
+        width: 220px;
+        height: 58px;
+        background: #EBC154;
+        box-shadow: 0px 0px 15px #C4C4C4;
+        color: #FFF;
+        font-size: 24px;
+    }
+
+    #heading{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        padding: 10px 10px 20px 12px;
+        line-height: 14px;
+        display: flex;
+        align-items: center;
+        color: #000000; 
+    }
+
+    #hr {
+      height: 10px;
+      background: #EBC154;;
+      width: 100px;
+      margin:  0 0 5px 12px;
+
+    }
+}
+
+/* Mobile screen styling */
+
+@media (max-width: 599px){
+
+    body {
+        background-color: #FFF;
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+    }
+
+    .header {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 50px;
+        text-transform: uppercase;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 0);
+
+        color: #FFFFFF;
+
+    }
+
+    .banner {
+     background-image: url('../images/background.png');
+     background-size: cover;
+     background-position: top;
+     position: relative;
+     height: 70vh;
+     margin-bottom: 50px;
+}
+    .button {
+        background: #EBC154;
+        box-shadow: 0px 0px 15px #C4C4C4;
+        color: #FFF;
+        font-size: 14px;
+
+    }
+
+    .p-style {
+        padding-left: 1em;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 40px;
+        color: #6C6C6C;
+    }
+    #heading{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        padding: 10px 0 1px 12px;
+        line-height: 14px;
+        display: flex;
+        align-items: center;
+        color: #000000; 
+    }
+    
+    .text-size{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+    }
+
+    .icon-style{
+        color: #EBC154;
+    }
+
+    #hr {
+      height: 5px;
+      background: #EBC154;;
+      width: 65px;
+      margin:  0 0 5px 12px;
+
+    }
+
+}
+
+/*Footer*/
+footer {
+    margin-top: 50px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/about-video.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0 30px;
+}
+
+footer input.form-control {
+    border: 1px solid #fff;
+    background-color: rgba(0, 0, 0, 0) !important;
+    color: #fff !important;
+}
+
+footer .footer-btn {
+    background-color: #EBC154;
+    color: #fff;
+    width: 100%;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+footer input.form-control:focus {
+    outline: none !important;
+
+}
+
+.footer-nav-link {
+    font-size: 16px;
+    color: #fff;
+}
+
+footer hr {
+    border: 0.5px solid #fff;
+    margin-top: 0;
+}
+
+footer .social-icons div {
+    background-color: #EBC154;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+footer .social-links i {
+    color: #fff;
+    font-size: 18px;
+}
+
+footer .footer-navigation {
+    padding: 0 40px;
+    margin-top: 92px;
+}
+
